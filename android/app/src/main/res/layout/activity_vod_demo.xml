@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vod_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qiniu.player.vod.voddemo.VodDemoActivity">
+
+    <RelativeLayout
+        android:id="@+id/nonVideoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <com.qiniu.player.vod.voddemo.utils.VideoEnabledWebView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/webview_default_height"
+            android:id="@+id/vod_demo_webview" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </RelativeLayout>
+</RelativeLayout>
