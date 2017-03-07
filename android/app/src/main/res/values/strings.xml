@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VodSampleProject</string>
+    <string name="loading_video">加载中...</string>
+</resources>
